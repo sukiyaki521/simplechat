@@ -29,6 +29,7 @@ const loadConfig = () => {
 
 // 設定を取得
 const config = loadConfig();
+config.apiEndpoint = "https://141f-34-73-122-182.ngrok-free.app/predict";
 
 // Amplify設定
 Amplify.configure({
